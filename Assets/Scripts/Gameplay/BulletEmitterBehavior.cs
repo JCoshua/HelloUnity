@@ -12,5 +12,6 @@ public class BulletEmitterBehavior : MonoBehaviour
         GameObject bullet = Instantiate(_bullet.gameObject, null);
         Rigidbody bulletRigidBody = bullet.GetComponent<Rigidbody>();
         BulletBehavior bulletBehavior = bullet.GetComponent<BulletBehavior>();
+
     }
 }
